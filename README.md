@@ -20,7 +20,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ### 3. Create virtual environment
 pip install -r requirements.txt
 
-### 4. Set environment variables
+### 4. Set environment variables for backend
 #Create a .env file in backend/ and add:
 WHOIS_API_KEY=at_Q6gTqKMRP3czcx7JHQ0ZNOP4u7Iym
 
@@ -34,10 +34,13 @@ python manage.py runserver
 cd ../frontend
 npm install
 
-### 4. Set environment variables
+### 4. Set environment variables for frontend
 #Create a .env file in frontend/ and add:
 REACT_APP_API_URL=http://localhost:8000/api
 
 ### 8. Start the development server
 npm start
+
+### 9. Access the Application
+Navigate http://localhost:3000
 
