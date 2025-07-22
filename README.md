@@ -65,6 +65,7 @@ WHOIS_API_KEY=at_Q6gTqKMRP3czcx7JHQ0ZNOP4u7Iym
 
 #### 2.6 Run Database Migrations
 ```bash
+cd myproject
 python manage.py migrate
 ```
 
